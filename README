@@ -1,0 +1,5 @@
+Usefull helpers for php projects
+********************************
+
+- formatString($number, $type = 3222, $delim = " ");
+- ...
