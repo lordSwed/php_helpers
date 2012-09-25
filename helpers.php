@@ -1,11 +1,12 @@
 <?php
+
 /**
- * Formaging string (phone number,...)
+ * Formaging string (phone number, ZIP, ... )
  * @param string $string
  * @param mumber $type
  * @param string $delim
  */
-function formatString($string, $type = 3222, $delim = " ") {
+function simpleFormatString($string, $type = 3222, $delim = " ") {
 	$return = '';
 	$string = str_replace($delim, '', $string);
 	$length = strlen($string);
